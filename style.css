@@ -1,5 +1,49 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styling */
+body {
+    color: #fcfcfc;
+    font: 14px 'Segoe UI', Arial, sans-serif;
+    background: #ccc;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #54a6de;
+}
+
+/* Custom Styling */
+
+.container {
+    width: 70%;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.MeAmor1, .MeAmor2 {
+    transform: rotate(-90deg);
+}
+
+.MeAmor3, .FamilyAtGame1 {
+    transform: rotate(180deg);
+}
+
+.Jennifer1, .Matthew1 {
+    transform: rotate(90deg);
+}
+
 img {
     flex-direction: row;
     height: 500px;
     width: 500px;
+}
+
+.footerText {
+    color: black;
+    font-weight: 600;
 }
