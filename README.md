@@ -6,4 +6,5 @@
   I used the 'Fancybox' plugin for this.
 
 # Link to project
+  [Demo Link](https://vronney.github.io/Animated-Image-Gallery/)
   
