@@ -17,6 +17,11 @@ a {
     color: #54a6de;
 }
 
+img {
+    height: 96px;
+    width: 125px;
+}
+
 /* Custom Styling */
 
 .container {
@@ -25,23 +30,47 @@ a {
     overflow: auto;
 }
 
-.MeAmor1, .MeAmor2 {
-    transform: rotate(-90deg);
+/* Nav Styling */
+
+#navBar {
+    display: block;
+    height: 40px;
+    background: #13181d;
 }
 
-.MeAmor3, .FamilyAtGame1 {
-    transform: rotate(180deg);
+#navBar a {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 37px;
+    padding: 0 15px;
 }
 
-.Jennifer1, .Matthew1 {
-    transform: rotate(90deg);
+#navBar a.active, #navBar a:hover {
+    background-color: #333;
 }
 
-img {
-    flex-direction: row;
-    height: 500px;
-    width: 500px;
+/* Content  Style*/
+
+#main {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 475px;
 }
+
+#main li {
+    float: left;
+    height: 96px;
+    list-style: none;
+    margin: 6px;
+    position: relative;
+    width: 125px;
+    box-shadow: 0 0 5px #000;
+}
+
+/* Footer */
 
 .footerText {
     color: black;
