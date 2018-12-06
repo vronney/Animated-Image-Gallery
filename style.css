@@ -8,7 +8,6 @@
 body {
     color: #fcfcfc;
     font: 14px 'Segoe UI', Arial, sans-serif;
-    background: #ccc;
 }
 
 a {
@@ -44,6 +43,16 @@ img {
     height: 40px;
     line-height: 37px;
     padding: 0 15px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 450px) {
+    #navBar a {
+        font-size: 10px;
+        margin: 0;
+        padding: 6px;
+        line-height: 25px;
+    }
 }
 
 #navBar a.active, #navBar a:hover {
